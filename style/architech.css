@@ -63,10 +63,51 @@
 .banner-image{
     width: 100%;
 }
-
+.tames-image-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+    padding: 200px;
+    margin-top: -200px;
+}
+.our-fichares{
+    /* max-width: 530px; */
+    /* margin-left: 10px; */
+    margin-bottom: 10px;
+}
+main > section{
+    margin-top: 90px;
+}
 @media screen and(max-width:576px) {
     .navber, .nav-link {
         flex-direction:column;
+    }
+    .tames-image-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .our-fichares{
+        margin-left: 20px;
+    }
+    
+}
+main{
+    max-width: 1440;
+    margin: 0 auto;
+}
+.fichares-taital{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+#quck-list{
+    font-weight: 500;
+}
+.text-primary{
+    color: #FF900E;
+}
+
+@media screen and(min-width:576px) and (max-width:992px) {
+    .tames{
+        flex-direction: column;
     }
     
 }
