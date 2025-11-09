@@ -79,7 +79,7 @@ main > section{
     margin-top: 90px;
 }
 @media screen and(max-width:576px) {
-    .navber, .nav-link {
+    .navber, .nav-link,.ferchars {
         flex-direction:column;
     }
     .tames-image-container,
@@ -89,6 +89,10 @@ main > section{
         grid-template-columns: repeat(1,1fr);
     }
     .our-fichares{
+        margin-left: 20px;
+    }
+    #Experience-bade{
+        margin-top: 20px;
         margin-left: 20px;
     }
     
@@ -177,4 +181,25 @@ main{
 }
 .ferchars{
     gap: 100px;
+}
+#Experience{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: -100px;
+    margin-right: 100px;
+    }
+#Experience-bade{
+    font-size: 4rem;
+    font-weight:700;
+}
+.arecitacd img{
+    width: 100%;
+}
+.ff{
+    background-color: #FFF4E7;
+    font-size: 30px;
+    text-align: center;
+    /* padding: 10px; */
+    margin-bottom: 10px;
 }
