@@ -82,7 +82,10 @@ main > section{
     .navber, .nav-link {
         flex-direction:column;
     }
-    .tames-image-container{
+    .tames-image-container,
+    .facts-container,
+    .sponser-company
+    {
         grid-template-columns: repeat(1,1fr);
     }
     .our-fichares{
@@ -140,4 +143,16 @@ main{
 }
 .fact-description{
     max-width: 540px;
+}
+.sponser-info{
+    max-width: 540px;
+    margin: 50px auto;
+}
+.sponser-company{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-left: 200px;
+}
+.sponser-company img{
+    filter: grayscale(100%);
 }
